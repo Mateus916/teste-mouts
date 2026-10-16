@@ -1,0 +1,12 @@
+node_modules/
+
+# Artefatos gerados pelo Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Ambiente e sistema operacional
+.env
+.DS_Store
+Thumbs.db
+*.log
