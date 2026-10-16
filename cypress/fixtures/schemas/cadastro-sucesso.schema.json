@@ -1,0 +1,10 @@
+{
+  "title": "Resposta de cadastro realizado com sucesso (POST /usuarios, POST /produtos)",
+  "type": "object",
+  "required": ["message", "_id"],
+  "additionalProperties": false,
+  "properties": {
+    "message": { "type": "string", "minLength": 1 },
+    "_id": { "type": "string", "minLength": 1 }
+  }
+}

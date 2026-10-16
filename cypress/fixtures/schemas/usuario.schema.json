@@ -1,0 +1,13 @@
+{
+  "title": "Usuário (GET /usuarios/{_id})",
+  "type": "object",
+  "required": ["nome", "email", "password", "administrador", "_id"],
+  "additionalProperties": false,
+  "properties": {
+    "nome": { "type": "string", "minLength": 1 },
+    "email": { "type": "string", "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$" },
+    "password": { "type": "string", "minLength": 1 },
+    "administrador": { "type": "string", "enum": ["true", "false"] },
+    "_id": { "type": "string", "minLength": 1 }
+  }
+}

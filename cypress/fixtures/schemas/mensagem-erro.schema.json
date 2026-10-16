@@ -1,0 +1,9 @@
+{
+  "title": "Resposta de erro de regra de negócio ou autorização",
+  "type": "object",
+  "required": ["message"],
+  "additionalProperties": false,
+  "properties": {
+    "message": { "type": "string", "minLength": 1 }
+  }
+}
